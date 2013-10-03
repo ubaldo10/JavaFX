@@ -1,5 +1,9 @@
 package entidades;
-
+/**
+ * Clase Carrera
+ * @author Ubaldo
+ *
+ */
 public class Carrera {
 	
 	private int idCarrera;
