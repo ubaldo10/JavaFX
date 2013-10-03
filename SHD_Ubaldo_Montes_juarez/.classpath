@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.7.0_25"/>
+	<classpathentry kind="con" path="at.bestsolution.efxclipse.tooling.jdt.core.JAVAFX_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Ubaldo/Documents/Proyectos-eclipse/JAVA FX/SHD/SHD_Ubaldo_Montes_juarez/jar/postgresql-9.2-1002.jdbc4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="519.0" xmlns:fx="http://javafx.com/fxml" fx:controller="principal.principal">
+  <children>
+    <AnchorPane layoutX="0.0" layoutY="0.0" prefHeight="400.0" prefWidth="519.0">
+      <children>
+        <Button fx:id="btnCarrera" layoutX="14.0" layoutY="29.0" mnemonicParsing="false" text="Carrera" onAction="#clickCarrera"/>
+        <Button fx:id="btnAlumnos" layoutX="14.0" layoutY="71.0" mnemonicParsing="false" text="Alumnos" onAction="#clickAlumno"/>
+        <Button fx:id="btnSalir" layoutX="14.0" layoutY="111.0" mnemonicParsing="false" text="Salir" onAction="#clickSalir"/>
+        <Separator layoutX="120.0" layoutY="1.0" orientation="VERTICAL" prefHeight="1000.0" />
+      </children>
+    </AnchorPane>
+  </children>
+</AnchorPane>

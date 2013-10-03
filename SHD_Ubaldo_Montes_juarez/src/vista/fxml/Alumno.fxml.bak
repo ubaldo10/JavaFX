@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="510.0" prefWidth="599.9998779296875" xmlns:fx="http://javafx.com/fxml" fx:controller="vista.controlador.controladorAlumno">
+  <children>
+    <AnchorPane prefHeight="510.0" prefWidth="600.0">
+      <children>
+        <Label layoutX="28.0" layoutY="38.0" text="Nombre:" />
+        <Label layoutX="26.0" layoutY="78.0" text="A. Paterno:" />
+        <Label layoutX="283.0" layoutY="79.0" text="A. Materno:" />
+        <TextField fx:id="txtNombre" layoutX="102.0" layoutY="35.0" prefWidth="164.0" />
+        <TextField fx:id="txtAmaterno" layoutX="365.0" layoutY="77.0" prefWidth="177.0" />
+        <TextField fx:id="txtApaterno" layoutX="102.0" layoutY="76.0" prefWidth="164.0" />
+        <Label layoutX="26.0" layoutY="123.0" text="Fecha de nacimiento:" />
+        <TextField fx:id="txtFecha" layoutX="167.0" layoutY="120.0" prefWidth="200.0" />
+        <Label layoutX="28.0" layoutY="166.0" text="Sexo:" />
+        <ComboBox fx:id="cboSexo" layoutX="84.0" layoutY="164.0" prefWidth="140.0" />
+        <Label layoutX="26.0" layoutY="208.0" text="Carrera:" />
+        <ComboBox fx:id="cboCarrera" layoutX="86.0" layoutY="206.0" prefWidth="140.0" />
+        <TableView fx:id="tblAlumno" layoutX="14.0" layoutY="251.0" prefHeight="200.0" prefWidth="572.0" />
+        <Button fx:id="btnGuardar" layoutX="262.0" layoutY="208.0" mnemonicParsing="false" text="GUARDAR" />
+        <Button fx:id="btnEliminar" layoutX="375.0" layoutY="208.0" mnemonicParsing="false" prefWidth="99.0" text="ELIMINAR" />
+        <Button fx:id="btnModificar" layoutX="487.0" layoutY="209.0" mnemonicParsing="false" text="MODIFICAR" onAction="#Actualizar"/>
+        <Label layoutX="52.0" layoutY="470.0" text="Mensaje:" textFill="#cc0000">
+          <font>
+            <Font size="18.0" />
+          </font>
+        </Label>
+      </children>
+    </AnchorPane>
+  </children>
+</AnchorPane>
