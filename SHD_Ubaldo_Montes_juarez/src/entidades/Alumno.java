@@ -14,6 +14,7 @@ public class Alumno {
 		this.idAlumno=0;
 	}
 	
+	/*
 	public Alumno(String nombre, String apaterno, String amaterno,
 			String fechaNacimiento, String sexo, String carrera) {
 		this.nombre = nombre;
@@ -22,7 +23,7 @@ public class Alumno {
 		this.fechaNacimiento = fechaNacimiento;
 		this.sexo = sexo;
 		this.carrera = carrera;
-	}
+	}XD*/
 
 	public String getNombre() {
 		return nombre;
