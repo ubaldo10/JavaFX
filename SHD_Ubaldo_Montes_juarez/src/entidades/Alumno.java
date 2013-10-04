@@ -4,7 +4,7 @@ public class Alumno {
 	private String nombre,apaterno,amaterno,fechaNacimiento,sexo,carrera;
 	private Integer idAlumno;
 	
-	public Alumno(){
+	/*public Alumno(){
 		this.nombre="";
 		this.apaterno="";
 		this.amaterno="";
@@ -12,7 +12,8 @@ public class Alumno {
 		this.sexo="";
 		this.carrera="";
 		this.idAlumno=0;
-	}
+	}*/
+	//Esta de mas este constructor no es necesario.
 	
 	public Alumno(String nombre, String apaterno, String amaterno,
 			String fechaNacimiento, String sexo, String carrera) {
